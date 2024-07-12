@@ -19,16 +19,20 @@ html {
 
 body {
     background-color: var(--Light-Grayish-Blue);
+    font-family: "Manrope", "sans-serif";
 }
 
 article {
-    padding: 20px 15px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 15px;
 }
 
 .main-container {
     max-width: 375px;
     background-color: white;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px lightgray;
 }
 
 .image-container {
@@ -38,4 +42,30 @@ article {
 .image-container img {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
+}
+
+.main-content-container {
+    padding: 20px;
+}
+
+.main-content-container :nth-child(1) {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--Very-Dark-Grayish-Blue);
+}
+
+.main-content-container :nth-child(2) {
+    font-size: 12px;
+    color: var(--Desaturated-Dark-Blue);
+}
+
+.main-content__sharing-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sharing-section__image-container img {
+    width: 40px;
 }
