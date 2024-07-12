@@ -16,3 +16,26 @@ html {
     --Grayish-Blue: hsl(212, 23%, 69%);
     --Light-Grayish-Blue: hsl(210, 46%, 95%);
 }
+
+body {
+    background-color: var(--Light-Grayish-Blue);
+}
+
+article {
+    padding: 20px 15px;
+}
+
+.main-container {
+    max-width: 375px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.image-container {
+    width: fit-content;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
