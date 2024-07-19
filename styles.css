@@ -25,7 +25,7 @@ body {
 article {
     display: flex;
     justify-content: center;
-    padding: 50px 15px;
+    padding: 20px 25px;
 }
 
 .main-container {
@@ -45,19 +45,20 @@ article {
 }
 
 .main-content-container {
-    padding: 20px;
+    padding: 20px 28px 0px;
 }
 
-.main-content-container :nth-child(1) {
+.main-container__first-paragraph {
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     color: var(--Very-Dark-Grayish-Blue);
 }
 
-.main-content-container :nth-child(2) {
-    font-size: 12px;
+.main-container__second-paragraph {
+    font-size: 13px;
     color: var(--Desaturated-Dark-Blue);
+    line-height: 20px;
 }
 
 .main-content__sharing-section {
