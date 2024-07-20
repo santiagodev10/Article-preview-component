@@ -56,7 +56,8 @@ article {
 }
 
 .main-container__second-paragraph {
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 500;
     color: var(--Desaturated-Dark-Blue);
     line-height: 20px;
 }
@@ -65,8 +66,32 @@ article {
     display: flex;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 18px;
 }
 
-.sharing-section__image-container img {
+.sharing-section__profile-image-container img {
     width: 40px;
+    border-radius: 20px;
+}
+
+.paragraph-container__first-paragraph {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--Very-Dark-Grayish-Blue);
+}
+
+.paragraph-container__second-paragraph {
+    font-size: 12px;
+    color: var(--Grayish-Blue);
+}
+
+.sharing-section__share-image-container {
+    width: 30px;
+    height: 30px;
+    background-color: var(--Light-Grayish-Blue);
+    margin-left: 50px;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
 }
