@@ -133,6 +133,10 @@ article {
     display: none;
 }
 
+.active {
+    display: block;
+}
+
 @media(min-width: 375px) {
     .main-container__second-paragraph,
     .paragraph-container__first-paragraph,
