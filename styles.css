@@ -49,7 +49,7 @@ article {
     padding: 20px 26px 0px;
 } */
 
-.main-container__first-paragraph {
+.main-content__first-paragraph {
     margin-bottom: 15px;
     font-size: 15px;
     font-weight: 700;
@@ -57,7 +57,7 @@ article {
     color: var(--Very-Dark-Grayish-Blue);
 }
 
-.main-container__second-paragraph {
+.main-content__second-paragraph {
     font-size: 12px;
     font-weight: 500;
     color: var(--Desaturated-Dark-Blue);
@@ -91,13 +91,14 @@ article {
     color: var(--Grayish-Blue);
 }
 
-.sharing-section__share-image-container {
+.sharing-section__share-button {
     width: 30px;
     height: 30px;
     position: absolute;
     right: 20px;
     background-color: var(--Light-Grayish-Blue);
     border-radius: 15px;
+    border: none;
     text-align: center;
     align-content: center;
     cursor: pointer;
@@ -138,13 +139,13 @@ article {
 }
 
 @media(min-width: 375px) {
-    .main-container__second-paragraph,
+    .main-content__second-paragraph,
     .paragraph-container__first-paragraph,
     .paragraph-container__second-paragraph {
         font-size: 13px;
     }
 
-    .main-container__first-paragraph {
+    .main-content__first-paragraph {
         font-size: 16px;
     }
 
@@ -170,11 +171,11 @@ article {
         position: relative;
     }
 
-    .main-container__first-paragraph {
+    .main-content__first-paragraph {
         font-size: 16px;
     }
 
-    .main-container__second-paragraph,
+    .main-content__second-paragraph,
     .paragraph-container__first-paragraph,
     .paragraph-container__second-paragraph {
         font-size: 12px;
@@ -196,11 +197,11 @@ article {
         max-width: 70%;
     }
 
-    .main-container__first-paragraph {
+    .main-content__first-paragraph {
         font-size: 16px;
     }
 
-    .main-container__second-paragraph,
+    .main-content__second-paragraph,
     .paragraph-container__first-paragraph,
     .paragraph-container__second-paragraph {
         font-size: 12px;
@@ -212,11 +213,11 @@ article {
         max-width: 60%;
     }
 
-    .main-container__first-paragraph {
+    .main-content__first-paragraph {
         font-size: 18px;
     }
 
-    .main-container__second-paragraph,
+    .main-content__second-paragraph,
     .paragraph-container__first-paragraph,
     .paragraph-container__second-paragraph {
         font-size: 12px;
@@ -230,11 +231,11 @@ article {
 
 @media(min-width: 1400px) {
 
-    .main-container__first-paragraph {
+    .main-content__first-paragraph {
         font-size: 2.5rem;
     }
 
-    .main-container__second-paragraph,
+    .main-content__second-paragraph,
     .paragraph-container__first-paragraph,
     .paragraph-container__second-paragraph {
         font-size: 1.6rem;
