@@ -27,11 +27,11 @@ function changeSharingSection() {
     
         const socialMediaIconsContainer = sharingSection.appendChild(divContainer);
         socialMediaIconsContainer.classList.add("social-media__icons-container");
-        socialMediaIconsContainer.innerHTML = `<a href="https://www.facebook.com/?locale=es_LA" target="_blank"><img src="./article-preview-component-master/images/icon-facebook.svg" alt="facebook-image"></a>
+        socialMediaIconsContainer.innerHTML = `<a href="https://www.facebook.com/?locale=es_LA" target="_blank"><img src="./assets/images/icon-facebook.svg" alt="facebook-image"></a>
             
-        <a href="https://twitter.com/?lang=es" target="_blank"><img src="./article-preview-component-master/images/icon-twitter.svg" alt="twitter-image"></a>
+        <a href="https://twitter.com/?lang=es" target="_blank"><img src="./assets/images/icon-twitter.svg" alt="twitter-image"></a>
     
-        <a href="https://es.pinterest.com/" target="_blank"><img src="./article-preview-component-master/images/icon-pinterest.svg" alt="pinterest-image"></a>
+        <a href="https://es.pinterest.com/" target="_blank"><img src="./assets/images/icon-pinterest.svg" alt="pinterest-image"></a>
         `
         if(mainContainer.offsetWidth >= 488) {
             //leaving the main content sharing section
